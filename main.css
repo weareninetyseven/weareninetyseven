@@ -115,16 +115,35 @@ h6{
 }
 
 
-@media screen and(max-width: 600px){
+
+@media (max-width: 600px){
+    .rrss{
+        justify-content: center;
+    }
+    
     .iz, .dr, .cr{
         text-align: center;
     }
     
-    .countd{
-        margin: 0 5px;
+    .countd {
+        margin: 0;
+    }
+    
+    .container h1{
+        font-size: 16px;
+    }
+    
+    .countd span{
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 20px;
     }
     
     .container h2{
-    font-size: 30px;
+    font-size: 40px;
+        padding: 5%;
+        padding-bottom: 0;
+        padding-top: 0;
+        line-height: 50px;
     }
 }
