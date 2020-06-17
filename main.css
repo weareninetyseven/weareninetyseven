@@ -113,3 +113,14 @@ h6{
     margin: 0;
     font-size: 12px;
 }
+
+
+@media screen and(max-width: 600px){
+    .iz, .dr, .cr{
+        text-align: center;
+    }
+    
+    .countd{
+        margin: 0 5px;
+    }
+}
