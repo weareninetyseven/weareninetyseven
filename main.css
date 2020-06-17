@@ -123,4 +123,8 @@ h6{
     .countd{
         margin: 0 5px;
     }
+    
+    .container h2{
+    font-size: 30px;
+    }
 }
